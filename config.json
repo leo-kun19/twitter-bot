@@ -1,0 +1,51 @@
+{
+  "settings": {
+    "max_tweet_age_days": 3,
+    "run_headless": false
+  },
+  "sleep_timers": {
+    "after_reply_min": 20,
+    "after_reply_max": 45,
+    "between_queries_min": 5,
+    "between_queries_max": 15,
+    "after_full_cycle_min": 60,
+    "after_full_cycle_max": 120
+  },
+  "search_terms": [
+    "joki coding","joki web","joki hosting","jasa coding","joki tugas coding", "joki tugas web",
+    "joki laravel","joki python","joki react"
+  ],
+  "intent_keywords": [
+    "butuh", "need", "cari", "ada yang bisa", "info", "ingfo",  
+    "perbaikin", "benerin", "help", "deadline"
+  ],
+  "service_keywords": [
+    "web", "website", "coding", "tugas", "skripsi", "aplikasi", "framework", 
+    "laravel", "react", "python", "data", "scraping", "scrap"
+  ],
+  "promo_keywords_to_avoid": [
+    "open joki", "kami menyediakan", "kami menawarkan", "jasa kami", "dikerjakan oleh",
+    "harga mulai", "pricelist", "hubungi", "minat dm", "cek bio", "cek profil",
+    "dijamin", "fast response", "revisi sampai acc", "infografis", "desain grafis",
+    "aesthetic", "ppt", "makalah", "artikel", "parafrase", "tersedia all spess"
+  ],
+  "username_keywords_to_avoid": [
+    "joki", "store", "jasa", "app", "design", "coding", "skripsi", "tugas",
+    "dev", "digital", "agency", "studio", "web", "shop", "closet", "stuff",
+    "beauty", "food", "preloved", "thrift", "tech", "solusi", "service", "grafis"
+  ],
+"reply_template": {
+  "base": "{Gas kak|Bisa kak|Boleh kak}, kami {siap kerjain|bisa bantu|ready kok}.",
+  "details": [
+    "{Start 10K, negotiable sesuai request.",
+    "Free revisi sampai oke."
+  ],
+  "cta_options": [
+    "{Cus langsung|Langsung aja} WA: http://wa.me/6282164556442 ya kak ✨",
+    "Cek bio untuk link WA: http://wa.me/6282164556442",
+    "Fast response, guaranteed cepat balas WA: http://wa.me/6282164556442 📲",
+    "bisa cek bio untuk info lebih lanjut ya!"
+  ]
+}
+
+}
